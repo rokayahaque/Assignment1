@@ -1,0 +1,195 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* nevar section start  */
+
+#naversection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #328872;
+    color: white;
+}
+
+#naversection h1{
+    font-size: 30px;
+    padding: 10px;
+}
+#naversection h1 span{
+    color: #00D916;
+}
+.logoDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* nevar section end */
+
+
+/* banner section start */
+
+#bannerSection img{
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 90vh;
+}
+
+/* banner section end */
+
+
+/* About Us section start */
+
+
+
+
+
+/* About Us section end */
+
+#aboutUssection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#E9E9E9;
+    padding: 13px;
+    gap: 10%;
+} 
+.AboutUsTextdiv>p{
+    font-size: 18px;
+}
+.AboutUsTextdiv h1 span{
+    font-size: 24px;
+    color: #00D916;
+   
+}
+.AboutUsTextdiv{
+    padding: 15px;
+    text-align: justify;
+}
+.AboutUsTextdiv button{
+  background-color: #00D916;
+  color: white;
+  padding: 10px 30px;
+  font-size: 16px;
+  border-radius: 5px;
+
+  border: none;
+}
+.aboutUsImgDiv>img{
+   height: 500px; 
+   
+  
+}
+
+/* About Us section end */
+
+
+/* jobs card section start */
+
+
+
+
+#JobsCardSection{
+    padding: 20px;
+    display: flex;
+    
+    
+   justify-content: space-evenly;
+    gap:2%;
+    background-size:100%;
+}
+.JobsCardMainDiv{
+   
+  
+    padding: 20px;
+  
+}
+.JobsCardImgDiv img{
+   
+    width: 277px;
+}
+
+.JobsCardTextDiv{
+    background-color: #00D916;
+    padding: 15px;
+
+}
+.JobsCardTextDiv button{
+    font-size: 16px;
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+  
+} 
+.button{
+   padding: 0 45%; 
+   left: 50%;
+}
+.button button{
+    background-color: #00D916;
+    font-size: 18px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow:0 2px 0 gray ;
+    
+}
+
+/* jobs card section end */
+/* Contact section start */
+
+#ContactSection{
+    display: flex;
+    justify-content: space-evenly;
+   background-color: #D9D9D9;
+   padding: 50px;
+   top: 20px;
+   
+}
+.ContactTextDiv{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 50px 0px;
+font-size: 20px;
+}
+input{
+    padding: 12px 30px;
+    border-radius: 5px;
+}
+#submit{
+    background-color: #00D916;
+    font-size: 18px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+
+
+/* Contact section end */
+/* footer section start */
+
+
+#footersection{
+    background-color: black;
+    color: white;
+    background-size:0 0 10px 30px;
+    text-align: center;
+    padding: 12px;
+    font-size: 20px;
+}
+
+
+/* footer section end */
